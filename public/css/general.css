@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: var(--background-body);
+    font-family: Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+}
+
+
+.red-btn {
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.red-btn:hover {
+    background-color: var(--btn-hover-color);
+    transition: background-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+}
+
+h1 {
+    line-height: 150%;
+    color: white;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-secondary-color);
+    line-height: 1.5rem;
+}
+
+select option {
+    color: black;
+}
