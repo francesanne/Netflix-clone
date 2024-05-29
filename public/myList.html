@@ -177,10 +177,8 @@
             fetch('/movies')
                 .then(response => response.json())
                 .then(data => {
-                    // Get the container where you want to display the movies
                     const moviesContainer = document.getElementById('movies-container');
 
-                    // Iterate through each movie in the data
                     data.forEach(movie => {
                         const movieDiv = document.createElement('div');
                         movieDiv.classList.add('content');
@@ -211,20 +209,16 @@
         const myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
         const video = document.querySelector('#exampleModal video');
 
-        // Function to start video playback
         function playVideo() {
             video.play();
         }
 
-        // Function to pause video playback
         function pauseVideo() {
             video.pause();
         }
 
-        // When the modal is shown, start video playback
         myModal._element.addEventListener('shown.bs.modal', playVideo);
 
-        // When the modal is hidden, pause video playback
         myModal._element.addEventListener('hidden.bs.modal', pauseVideo);
     });
     </script>
@@ -232,3 +226,4 @@
     <script src="script/homePage.js"></script>
 </body>
 </html>
+
