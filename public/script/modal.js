@@ -52,3 +52,13 @@ modalTriggers.forEach(function(trigger) {
         });
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var rateButton = document.getElementById("rateButton");
+  
+    rateButton.addEventListener("click", function() {
+      this.classList.toggle("active");
+    });
+  });
+  

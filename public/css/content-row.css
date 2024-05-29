@@ -24,21 +24,19 @@
   overflow-x: scroll;
   white-space: nowrap;
   display: inline-block;
-  padding-bottom: 20px; /* Adjust based on scrollbar size */
-  margin-bottom: -20px; /* Adjust based on scrollbar size */
+  padding-bottom: 20px; 
+  margin-bottom: -20px; 
 }
 
-/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
 .slider::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE and Edge */
 .slider {
   -ms-overflow-style: none;
 }
 
-/* Hide scrollbar for Firefox */
+
 .slider {
   scrollbar-width: none;
 }
